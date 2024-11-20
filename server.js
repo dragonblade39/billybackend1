@@ -17,7 +17,7 @@ app.use("/incident", incidentRoutes);
 
 // Connect to MongoDB
 mongoose.connect(
-  "mongodb+srv://chethannv:chethan@chethan.kjdlxwb.mongodb.net/CyberBullying",
+  "mongodb+srv://guru:guru@cluster0.oowiasj.mongodb.net/CyberBullying",
   { useNewUrlParser: true, useUnifiedTopology: true }
 );
 const db = mongoose.connection;
